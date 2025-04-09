@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>The Knight's Fantastic Dream</title>
   <style>
-    /* Reset básico */
     * {
       margin: 0; padding: 0;
       box-sizing: border-box;
@@ -49,7 +48,7 @@
       flex-wrap: wrap;
       gap: 10px;
       justify-content: center;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
     .link-btn {
       display: inline-block;
@@ -63,6 +62,18 @@
     .link-btn:hover {
       background: #005fa3;
     }
+    .privacy {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    .privacy a {
+      color: #999;
+      text-decoration: none;
+    }
+    .privacy a:hover {
+      text-decoration: underline;
+    }
     footer {
       text-align: center;
       font-size: 0.9rem;
@@ -75,38 +86,32 @@
 
   <header>
     <h1>The Knight's Fantastic Dream</h1>
-    <p>Uma aventura noturna repleta de desafios!</p>
+    <p>A night adventure full of challenges!</p>
   </header>
 
   <main>
-    <!-- Suba a imagem .png no mesmo repositório e troque knight.png pelo nome do arquivo -->
     <img src="knight.png" alt="The Knight's Fantastic Dream" class="game-image" />
 
     <div class="description">
-      Embarque em uma aventura emocionante em <strong>The Knight's Fantastic Dream</strong>!
-      Assuma o papel de um bravo cavaleiro em uma missão para coletar seis chaves em cada nível
-      antes que o tempo acabe. Navegue por fases desafiadoras, desvie de slimes e
-      evite a água, tudo sob um céu noturno encantador.
+      Embark on an exciting adventure in <strong>The Knight's Fantastic Dream</strong>!
+      Play as a brave knight on a quest to collect six keys in each level
+      before time runs out. Navigate challenging stages, dodge slimes,
+      and avoid the water, all under a magical night sky.
     </div>
 
     <div class="links">
-      <a
-        class="link-btn"
-        href="https://play.google.com/store/apps/details?id=com.gabriel.theknightsdream"
-        target="_blank"
-        >Baixar na Google Play</a
-      >
-      <a
-        class="link-btn"
-        href="https://catflightofficial.blogspot.com/"
-        target="_blank"
-        >Política de Privacidade</a
-      >
+      <a class="link-btn" href="https://play.google.com/store/apps/details?id=com.gabriel.theknightsdream" target="_blank">Download on Google Play</a>
+      <a class="link-btn" href="https://www.gamepix.com/pt/play/the-knight-s-fantastic-dream" target="_blank">Play on GamePix</a>
+      <a class="link-btn" href="https://gd.games/gabriel350/the-knight-s-fantastic-dream" target="_blank">Play on GD.games</a>
+    </div>
+
+    <div class="privacy">
+      <a href="https://catflightofficial.blogspot.com/" target="_blank">Privacy Policy</a>
     </div>
   </main>
 
   <footer>
-    <p>Desenvolvido por Gabriel Vidal Games</p>
+    <p>Developed by Gabriel Vidal</p>
   </footer>
 
 </body>
