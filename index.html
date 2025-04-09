@@ -1,1 +1,113 @@
-<h1>Site em construção</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Knight's Fantastic Dream</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0; padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #1e1e1e;
+      font-family: Arial, sans-serif;
+      color: #f5f5f5;
+      line-height: 1.5;
+    }
+    header {
+      text-align: center;
+      padding: 20px 0;
+      background: #2c2c2c;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      margin-bottom: 5px;
+    }
+    main {
+      width: 90%;
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .game-image {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+      border: 2px solid #444;
+      border-radius: 6px;
+    }
+    .description {
+      font-size: 1rem;
+      margin: 15px 0 25px;
+      text-align: justify;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .link-btn {
+      display: inline-block;
+      background: #007acc;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 4px;
+      transition: background 0.2s ease;
+    }
+    .link-btn:hover {
+      background: #005fa3;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Knight's Fantastic Dream</h1>
+    <p>Uma aventura noturna repleta de desafios!</p>
+  </header>
+
+  <main>
+    <!-- Suba a imagem .png no mesmo repositório e troque knight.png pelo nome do arquivo -->
+    <img src="knight.png" alt="The Knight's Fantastic Dream" class="game-image" />
+
+    <div class="description">
+      Embarque em uma aventura emocionante em <strong>The Knight's Fantastic Dream</strong>!
+      Assuma o papel de um bravo cavaleiro em uma missão para coletar seis chaves em cada nível
+      antes que o tempo acabe. Navegue por fases desafiadoras, desvie de slimes e
+      evite a água, tudo sob um céu noturno encantador.
+    </div>
+
+    <div class="links">
+      <a
+        class="link-btn"
+        href="https://play.google.com/store/apps/details?id=com.gabriel.theknightsdream"
+        target="_blank"
+        >Baixar na Google Play</a
+      >
+      <a
+        class="link-btn"
+        href="https://catflightofficial.blogspot.com/"
+        target="_blank"
+        >Política de Privacidade</a
+      >
+    </div>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Gabriel Vidal Games</p>
+  </footer>
+
+</body>
+</html>
